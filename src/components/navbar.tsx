@@ -13,9 +13,9 @@ export default function Navbar() {
           <h1>✔ Free Shipping On All Orders $50+</h1>
         </div>
         <div>
-          <ul className="flex gap-6">
+          <ul className="flex  gap-6">
             <li>Eng</li>
-            <Link href={"./Faq"}>Faqs</Link>
+            <Link href= {"./Faq"}>Faqs</Link>
             <li>Need Help</li>
           </ul>
         </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
           <Link href={"http://localhost:3000/"}>Home    </Link>
           <Link href={"./Card"}>Shop    </Link>
           <Link href={"./Product"}>Product </Link>
-          <Link href={""}>Pages   </Link>
+          <Link href={"./Pages"}>Pages</Link>
           <Link href={"./About"}>About   </Link>  
           <Link href={"./Contact"}>Contact  </Link>    
         </ul> 
