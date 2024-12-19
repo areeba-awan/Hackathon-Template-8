@@ -15,7 +15,7 @@ export default function Topcategory() {
       product: '1334',
     },
     {
-      image: '/topcategory/Category2.png',
+      image: '/topcategory/category2.png',
       name: 'Wooden Chair',
       product: '23432',
     },
