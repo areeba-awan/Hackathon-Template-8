@@ -1,11 +1,29 @@
 // FUTURE PAGE COMPONENTS
 
+import { sanityFetch } from '@/sanity/lib/fetch';
 import Image from 'next/image';
 import React from 'react';
 import { FaCartShopping } from "react-icons/fa6";
+import { allproducts } from '@/sanity/lib/queries';
 
-export default function Feature() {
-  const Data = [
+type Product ={
+  _id :string ;
+  name: string;
+  description: string;
+  price: number;
+  imageurl:string
+
+}
+
+export default async function Feature() {
+const products : Product []= await sanityFetch({query:allproducts})
+ 
+ 
+
+ 
+ 
+ 
+ const Data = [
     '/Logo1.png',
     '/Logo2.png',
     '/Logo3.png',
