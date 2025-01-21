@@ -7,19 +7,30 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate": "node scripts/migrate.mjs"
+    "migrate": "node scripts/migrate.mjs",
+    "cleanup": "node scripts/cleanup.mjs"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
     "@sanity/image-url": "^1.1.0",
-    "@sanity/vision": "^3.70.0",
+    "@sanity/vision": "^3.68.3",
+    "@stripe/stripe-js": "^5.5.0",
+    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "next": "^14.2.13",
     "next-sanity": "^9.8.38",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.54.2",
     "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.3",
     "sanity": "^3.70.0",
-    "styled-components": "^6.1.14"
+    "shipengine": "^1.0.7",
+    "stripe": "^17.5.0",
+    "styled-components": "^6.1.14",
+    "use-shopping-cart": "^3.2.0",
+    "yup": "^1.6.1",
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
     "@types/node": "^20",
